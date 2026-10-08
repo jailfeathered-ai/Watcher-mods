@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="thewatcher"
+version="1.0.0"
+displayName="The Watcher"
+description='''
+A horror mod. Something tall and smiling hunts you every night.
+'''
+
+[[dependencies.thewatcher]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.thewatcher]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
